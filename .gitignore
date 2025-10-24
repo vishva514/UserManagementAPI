@@ -1,0 +1,18 @@
+frontend/node_modules/
+frontend/build/
+frontend/.env.local
+
+# BACKEND (.NET/C#)
+backend/*/bin/
+backend/*/obj/
+backend/.vs/
+backend/**/.vs/
+.vs/
+**/.vs/
+*.vsidx
+*.suo
+*.user
+
+# General
+.DS_Store
+*.log
