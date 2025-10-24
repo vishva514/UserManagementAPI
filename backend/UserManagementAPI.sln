@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagementAPI", "UserManagementAPI\UserManagementAPI.csproj", "{80C38312-3176-40FD-8DCC-87AA4DD08431}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserManagementAPI.Tests", "UserManagementAPI.Tests", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTesting", "UnitTesting", "{C1E653F1-B5EE-4490-946A-88E8A5606005}"
+	ProjectSection(SolutionItems) = preProject
+		AuthServiceTests.cs = AuthServiceTests.cs
+		UserRepositoryTests.cs = UserRepositoryTests.cs
+		UsersControllerTests.cs = UsersControllerTests.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegrationTests", "IntegrationTests", "{614C7579-DB5E-4FD4-8990-55F7E75FF47F}"
+	ProjectSection(SolutionItems) = preProject
+		AuthControllerTests.cs = AuthControllerTests.cs
+		BasicIntegrationTests.cs = BasicIntegrationTests.cs
+		TestWebApplicationFactory.cs = TestWebApplicationFactory.cs
+		UserControllerTests.cs = UserControllerTests.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{37A1C5E7-B58F-46F0-8A36-9280793592D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{4F17B25C-2BF9-4E16-8F9C-AB40970A2381}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80C38312-3176-40FD-8DCC-87AA4DD08431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80C38312-3176-40FD-8DCC-87AA4DD08431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80C38312-3176-40FD-8DCC-87AA4DD08431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80C38312-3176-40FD-8DCC-87AA4DD08431}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C1E653F1-B5EE-4490-946A-88E8A5606005} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{614C7579-DB5E-4FD4-8990-55F7E75FF47F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{37A1C5E7-B58F-46F0-8A36-9280793592D4} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{4F17B25C-2BF9-4E16-8F9C-AB40970A2381} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5ADEF1A2-A344-4EEF-8D95-46DD06F56BFA}
+	EndGlobalSection
+EndGlobal
